@@ -1,0 +1,171 @@
+/*	ESTILOS	LOGIN */
+body{
+	margin: auto;
+	width: 1024px;
+}
+.secLogin{
+	width: 100%;
+	height: 300px;
+	background-color: #ccc;
+	margin-top: 100px;
+}
+.formLogin{
+	margin: auto;
+	width: 30%;
+	height: 200px;
+	padding-top: 50px;
+}
+.formLogin span{
+	
+}
+.formLogin .btns{
+	background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.formLogin .inps{
+	width: 276px;
+	height: 15px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    resize: none;
+    margin-bottom: 3px;
+
+}
+.formLogin .lbls{
+	font-size: 16px;
+	display: block;
+	margin-top: 3px;
+}
+.formLogin span{
+	font-size: 20px;
+	display: block;
+}
+/* ESTILOS HOME */
+.header{
+	height: 100px;
+	background: #4CAF50;
+	margin: 0 auto;
+	padding: 0;
+	list-style: none;
+	width: 100%;
+	box-shadow: -6px 9px 5px #ccc;
+
+}
+.header .nombreHeader {
+	font-size: 50px;
+	color: white;
+	padding-left: 2%;
+}
+.header nav {
+	clear: both;
+	display: block;
+	float: right;
+	width: 50%;
+	position: relative;
+	bottom: -55px;
+}
+.header nav ul{
+	list-style: none;
+	padding: 0;
+}
+.header nav ul li{
+	display: inline-block;
+	text-align: center;
+	margin: 0 auto;
+	width: 23%;
+}
+.header nav ul li a{
+	font-size: 1.3em;
+	text-decoration: none;
+	color: white;
+	line-height: 25px;
+	/*text-shadow: -4px 5px 1px #000;*/
+	display: block;
+	transition: all 0.3s ease-out;
+	/*border-bottom: 2px solid #f89830;*/
+}
+section{
+	margin-top: 15px;
+}
+.busquedaRapida{
+	margin-left: 300px;
+}
+.busquedaRapida .inputBusq{
+
+}
+.busquedaRapida button{
+	background-color: #4CAF50;
+	border-radius: 10px;
+}
+table {
+	margin-top: 15px;
+	width: 100%;
+}
+
+table tr, th{
+	border-bottom: 1px solid #ddd;
+	height: 35px;
+	
+}
+
+.btnNuevoPedido {
+	text-decoration: none;
+	color: white;
+	font-size: 36px;
+	font-style: bold;
+	display: scroll;
+	position: fixed;
+	bottom: 350px;
+	right: 120px;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	background-color: #4CAF50;
+	text-align: center;
+
+}
+input[type="search"]{
+	width: 32px;
+	height: 32px;
+	background: #4CAF50 url('search_icon.png') no-repeat 9px center;
+	padding: 4px 4px 4px 4px;
+	border-radius: 50%;
+	transition: all .5s;
+	outline: none;
+	display: scroll;
+	position: fixed;
+	bottom: 300px;
+	right: 120px;
+	cursor: pointer;
+	border: none;
+}
+
+input[type="search"]:focus{
+	border-radius: 15em;
+	width: 130px;
+	padding-left: 32px;
+	color: #000;
+	background-color: #4CAF50;
+}
+.input{
+	margin-left: 20px;
+}
+.cbProd{
+	margin: 15px;
+}
+.tdProd{
+	width: 43px;
+}
+.listaProd{
+	width: 90%;
+	margin-left: 15px; 
+	border: none;
+}

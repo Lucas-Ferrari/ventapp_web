@@ -1,0 +1,25 @@
+INSERT INTO `producto` (`codigoProducto`, `codigoProveedor`, `descripcion`, `precioCosto`)
+VALUES (NULL, '3', 'Zapatilla chatita verde', '35.50');
+
+INSERT INTO `producto` (`codigoProducto`, `codigoProveedor`, `descripcion`, `precioCosto`)
+VALUES (NULL, '3', 'Zapatilla chatita azul', '35.50');
+
+INSERT INTO `producto` (`codigoProducto`, `codigoProveedor`, `descripcion`, `precioCosto`)
+VALUES (NULL, '3', 'Zapatilla chatita amarilla', '35.50');
+
+INSERT INTO `producto` (`codigoProducto`, `codigoProveedor`, `descripcion`, `precioCosto`)
+VALUES (NULL, '3', 'Botita cuero negro', '85.20');
+
+INSERT INTO `producto` (`codigoProducto`, `codigoProveedor`, `descripcion`, `precioCosto`)
+VALUES (NULL, '3', 'Botita tela roja', '85.20');
+
+INSERT INTO `producto` (`codigoProducto`, `codigoProveedor`, `descripcion`, `precioCosto`)
+VALUES (NULL, '3', 'Botita larga tela verde', '90.60');
+
+INSERT INTO `stock` (`codigoProducto`, `cantidad`, `puntoReposicion`) VALUES ('7', '15', '8');
+
+INSERT INTO `stock` (`codigoProducto`, `cantidad`, `puntoReposicion`) VALUES ('8', '17', '4');
+
+INSERT INTO `stock` (`codigoProducto`, `cantidad`, `puntoReposicion`) VALUES ('9', '24', '16');
+
+INSERT INTO `stock` (`codigoProducto`, `cantidad`, `puntoReposicion`) VALUES ('10', '34', '40');
