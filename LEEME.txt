@@ -1,0 +1,11 @@
+----------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------------------------------------VENTAPP WEB------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------------
+1- SIEMPRE SE TIENE QUE EJECUTAR DESDE EL CONTROLADOR. Por como configuré el .htaccess el defecto es localhost:port/ventapp_web_desa y lleva al listado clientes
+2- Los controladores, instancian un objeto de la vista, y con la función render() llamas al html que tiene el mismo nombre que la el objeto vista
+3- los css se linkean en el html con la ruta específica './css/xxxxxxx.css'
+4- Rutas dentro de php usar la variable de servidor y concatenar => $_SERVER['DOCUMENT_ROOT'] . '/ventapp_web_desa/xxxxxx'
+5- No usar funciones php directamente para manejo de datos, utilizar las que estan incluídas en el framework.
+
+Nico, si vas a crear htmls, sobreescribi los que ya estan en la carpeta ventapp_web_desa/html, son todos los que necesitamos, ya tienen creadas sus respectivas vistas, faltaría llamarlos desde el controlador, pero lo veo el martes
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
